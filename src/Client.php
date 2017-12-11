@@ -2,9 +2,6 @@
 
 namespace Abakamu;
 
-use Abakamu\Request;
-use Abakamu\Response;
-
 interface Client
 {
     /**
