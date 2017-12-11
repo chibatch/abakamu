@@ -2,15 +2,21 @@
 
 namespace Abakamu;
 
+use Abakamu\Request;
+
 interface Request
 {
     /**
-     * Get as array
+     * Get request headers
      *
-     * @return array
+     * @return Request\Header
      */
-    return asArray()
-    {
+    public function getHeader();
 
-    }
+    /**
+     * Get request body
+     *
+     * @return Request\Body
+     */
+    public function getBody();
 }

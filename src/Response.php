@@ -2,15 +2,21 @@
 
 namespace Abakamu;
 
+use Abakamu\Response;
+
 interface Response
 {
     /**
-     * Get as array
+     * Get response headers
      *
-     * @return array
+     * @return Response\Header
      */
-    return asArray()
-    {
+    public function getHeader();
 
-    }
+    /**
+     * Get response body
+     *
+     * @return Response\Body
+     */
+    public function getBody();
 }
