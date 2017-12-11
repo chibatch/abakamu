@@ -1,1 +1,1 @@
-this is storong style for HTTP Client.
+interfaces for HTTP Client.
